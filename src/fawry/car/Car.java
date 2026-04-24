@@ -18,10 +18,12 @@ public class Car {
             System.out.println("car started speed = "+this.engine.getSpeed()+" km/h");
         }
         else{
+            //can't start what is already has started
             System.out.println("car is already started");
         }
     }
     public void accelerate(){
+
         if(hasCarStarted){
         for (int i = 0; i < 20; i++) {
             if(this.engine.getSpeed()==200){
@@ -33,12 +35,14 @@ public class Car {
         }
     }
         else{
+            //can't breake while the cat hasn't started yet
+
             System.out.println("car hasn't start yet please start your car first");
         }
     }
 
     public void brake(){
-
+        //can't breake while the cat hasn't started yet
         if(hasCarStarted){
             for (int i = 0; i < 20; i++) {
                 if(this.engine.getSpeed()==0){

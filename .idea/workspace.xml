@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86b3dd2b-fdc3-417b-bd03-649c78df9fba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fawry quantam car.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fawry/car/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fawry/car/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fawry/car/engines/ElectricEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fawry/car/engines/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fawry/car/engines/GasEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fawry/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fawry/car/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fawry/car/engines/HybridEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fawry/car/engines/HybridEngine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -98,11 +89,22 @@
       <option name="presentableId" value="Default" />
       <updated>1777000021904</updated>
       <workItem from="1777000023019" duration="214000" />
-      <workItem from="1777000257784" duration="13333000" />
+      <workItem from="1777000257784" duration="16127000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

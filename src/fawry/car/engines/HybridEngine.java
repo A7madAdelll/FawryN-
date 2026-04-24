@@ -2,13 +2,13 @@ package fawry.car.engines;
 
 public class HybridEngine implements Engine{
     private int speed;
-    private ElectricEngine electricEngineInHypred;
+    private ElectricEngine electricEngineInHyprid;
     private GasEngine gasEngineInHypred;
     private Engine activeEngine;
     public HybridEngine() {
-        this.electricEngineInHypred = new ElectricEngine();
+        this.electricEngineInHyprid = new ElectricEngine();
         this.gasEngineInHypred = new GasEngine();
-        this.activeEngine=electricEngineInHypred;
+        this.activeEngine=electricEngineInHyprid;
     }
 
     @Override
@@ -27,15 +27,19 @@ public class HybridEngine implements Engine{
         activeEngine.increase();
     }
     void checkSpeed(){
+
+        // Below 50 the electric engine is assigned to be the active engine
         if(this.speed<=50){
             this.gasEngineInHypred.setSpeed(0);
-            this.electricEngineInHypred.setSpeed(this.speed);
-            this.activeEngine=electricEngineInHypred;
+            this.electricEngineInHyprid.setSpeed(this.speed);
+            this.activeEngine=electricEngineInHyprid;
 
         }
+
+        // above 50 the gas engine is assigned to the be the active engine
         else{
             this.gasEngineInHypred.setSpeed(this.speed);
-            this.electricEngineInHypred.setSpeed(0);
+            this.electricEngineInHyprid.setSpeed(0);
             this.activeEngine=gasEngineInHypred;
         }
     }
